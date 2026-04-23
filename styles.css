@@ -323,3 +323,13 @@ main {
         padding: 12px;
     }
 }
+
+video {
+    border-radius: 18px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+    transition: transform 0.4s ease;
+}
+
+video:hover {
+    transform: scale(1.02);
+}
