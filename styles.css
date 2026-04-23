@@ -333,3 +333,10 @@ video {
 video:hover {
     transform: scale(1.02);
 }
+.media-card video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 18px;
+    background: #000;
+}
